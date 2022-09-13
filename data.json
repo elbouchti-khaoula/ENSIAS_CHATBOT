@@ -1,0 +1,243 @@
+{
+  "data": [
+{
+  "tag": "greeting",
+  "patterns": ["HI", "Hey", "Ca va ?", "Bonjour", "COMMENT VAS-TU","Bonsoir", "Hello"
+  ],
+  "responses": [ "Bonjour, merci de m avoir contacter", "Heyy, comment je peux vous aider?", "Bonjour!"
+  ]
+},
+    {
+      "tag": "presentation_de_l ecole",
+      "patterns": ["presentez-moi votre ecole", "presenter l ENSIAS", "parlez moi de cette ecole ?"],
+      "responses": [" Fondee en 1992, l Ecole Nationale Superieure d Informatique et d Analyse des Systemes (ENSIAS) est l une des dix etablissements de l Universite Mohammed V – Souissi. C est une grande ecole d ingenieurs specialisee en Technologies de l Information et de la Communication. Elle a pour missions la formation d ingenieurs d etat. "]
+    },
+     {"tag": "cycle_ou_master",
+         "patterns": ["Quelles sont les filieres ","les filieres","lister les filieres"],
+         "responses": ["cycle d ingenieur ou Master ?"]
+        },
+     {"tag": "conditions_d admission_cycle",
+         "patterns": ["Conditions d admission en cycle d ingenieur","acces","condition","admission","Acces en premiere annee cycle d ingenieur","est ce que tu peut faire un cycle ou une licence informatique a traver un ","conditions d acces en premiere annee 1A cycle d ingenieur","est ce que je peut integrir l ecole avec un "],
+         "responses": ["\nAcces en premiere annee :\n\n- Candidats ayant reussi le Concours National Commun (CNC) des grandes ecoles d ingenieurs du Maroc.\n\n- Sur concours pour les titulaires des diplomes suivants : DEUG Sciences Mathematiques (SM) ou Sciences Mathematiques et Informatique (SMI)\n\n- Acces sur titre : Licence SMI\n"]
+        },
+    {"tag": "1A",
+         "patterns": ["tronc commun 1A apres  avoir adopte les nouvelles filieres","etude"," tronc commun ","tronc commun 1A apres  avoir adopte la nouvelle formation","tronc commun en premiere annee 1A","l etude en premiere annee"],
+         "responses": ["Toutes les filieres nouvelles et/ou remaniees adoptent la nouvelle architecture avec un tronc commun en premiere annee de tous les modules .Chaque semestre est compose de 7 modules coherents incluant des modules de specialites, des modules de langues, de communications et de developpement personnel et professionnel, des projets federateurs, des modules de management en se conformant aux proportions du CNPN du cycle ingenieur."]
+        },
+     {"tag": "recherche_filiere_cycle",
+         "patterns": ["les filieres du cycle d ingenieur","cycle d ingenieur","les filieres cycle d ingenieur existantes","quelles sont les filieres cycle d ingenieur existantes","donnez-moi une idee sur les filieres cycle d ingenieu","Presentation de la nouvelle offre de formation du cycle ingenieur de l ENSIAS Edition 2021", "lister les filieres du cycle","les nouveau filiere cycle d ingenieur "],
+         "responses": ["Veuillez enter le nom d une filiere precise sinon voici la liste des nouvelles filieres du cycle ingenieur a l ecole : \n 1. Business Intelligence & Analytics (BI&A)\n2. Genie de la Data (GD)\n3. Genie logiciel (GL)\n4. Ingenierie en Data Science and IOT ( IDSIT ) avec 2 options : Option 1 : IoT and Mobile Services & Option 2 : Web Analytics\n5. Securite des Systemes d Information (SSI)\n6. Smart Supply Chain & Logistics (2SCL)\n7. Smart System Engineering (SSE) avec 2 options :\n Option 1 : IoT and Industry 4.0 & Option 2 : Autonomous Systems\n"]
+        },
+     {"tag": "pourquoi_nouvelle_filieres",
+         "patterns": ["pourquoi l ENSIAS4.0","ENSIAS4.0"," nouvellles filieres","pourquoi l adoption des nouvellles filieres?","innovation"," pourquoi adopter une nouvelle formation ?","pourquoi cette nouvelle offre de formation a l ENSIAS "],
+         "responses": [" L ENSIAS s est  positionnee dans sa nouvelle offre de formation pour former par et pour la recherche aux technologies emergentes de la transformation digitale .La nouvelle offre de formation met la Data et les analyses poussees au cœur des apprentissages de tout eleves ingenieur et ce dans toutes les filieres .\n l ENSIAS a choisi de faire appraitre dans les intitules des filieres remaniees et/ou nouvelles) les mots clefs: Analystics, Data et Data Science, Smart, etc. \n"]
+        },
+    {"tag": "recherche_filiere_master",
+         "patterns": ["les filieres Master", "master","les filieres master existantes","quelles sont les filieres master existantes","donnez-moi une idee sur les filieres master existantes","lister les filieres du master a l ecole","les nouvelles filieres Master "],
+         "responses": ["Veuillez enter le nom d une filiere precise sinon voici la liste des nouvelles filieres Master : 1 master specialise systemes embarques pour automobile MSEA\n 2 Filiere Master Specialise Ingenierie pour la Finance Durable et la Gestion des Risques IFDGR \n 3 Le master recherche SCIENCE DE DONNEES ET BIG DATA\n 4 master internet des objets: LOGICIEL ET ANALYTIQUE MIOLA\n 5 Master de recherche en Bioinformatique et Modelisation des systemes complexes appliquee a la sante \n 6 nouveau master de recherche en securite systemes et services M3S\n 7 nouveau master de recherche cloud and high performance computing CLOUDHPC\n"]
+        },
+    {"tag": "recherche_filiere_GL",
+         "patterns": [" Genie logiciel (GL)","GL"," presentation de la filiere Genie logiciel (GL)"," comparaison entre la filiere Genie logiciel (GL) avant et apres le changement /innovation/renovation/renouvelement"],
+         "responses": ["une formation en genie logiciel et en systemes d information, maitrisant les techniques, les methodes et les outils de developpement et de conduite de projets logiciels de qualite, dans differents domaines d application et operant dans divers environnements d architecture logicielle.\n La filiere GL accreditee en 2014 a ete remaniee en adoptant la nouvelle architecture et en introduisant quelques elements de modules. Elle garde son intitule Genie Logiciel .\n "]
+        },
+    {"tag": "recherche_filiere_BI",
+         "patterns": ["Business Intelligence & Analytics (BI&A)","BI","eMBI","presentation de la filiere Business Intelligence & Analytics (BI&A)"," comparaison entre la filiere Business Intelligence & Analytics (BI&A) avant et apres le changement /innovation/renovation/renouvellement"],
+         "responses": ["une formation qui integre et met en relation plusieurs disciplines de base : Informatique, Aide a la decision, Maths appliques, Intelligence artificielle et Management. Il oriente aux specialites suivantes : E-Management, Business Intelligence, Ingenierie de la Logistique.\n La filiere eMBI accreditee en 2014 a ete remaniee en adoptant la nouvelle architecture et egalement par l introduction de plus de 4 nouveaux modules renforçant le volet analytique dans le Business ce qui justifie l evolution de l intitule en Business Analytics and Analytics.\n"]
+        },
+    {"tag": "recherche_filiere_GD",
+         "patterns": ["Genie de la Data (GD)","GD" ," presentation de la filiere Genie de la Data (GD)"," comparaison entre la filiere Genie de la Data (GD) avec le changement /innovation/renovation/renouvellement"],
+         "responses": [" La filiere Genie de la DATA est nouvelle et forme des eleves ingenieurs capables de definir et mettre en place des plateformes et solutions de donnees.La filiere Genie de la Data GD ambitionne d innover : \n o Au niveau metier : former des Data Ingenieurs avec des connaissances solides du processus d un projet Data leur garantissant une integration facile en entreprise ; \no Au niveau pedagogique : mettre a la disposition de l etudiant un environnement propice pour innover et realiser son projet le long de son cursus d ingenieur pour le transformer en startup en fin du cursus. Dans ce sens, la formation sera axee autour de « projet comme paradigme pedagogique ». ;\n o Au niveau du profil ingenieur : former un ingenieur innovateur et entrepreneur capable d innover et de transformer son idee en startup creatrice de valeur ajoutee et d emploi"]
+        },
+    {"tag": "recherche_filiere_IDSIT",
+         "patterns": ["IWIM"," presentation de la filiere Ingenierie en Data Science and IOT ( IDSIT ) avec 2 options : Option 1 : IoT and Mobile Services & Option 2 : Web Analytics"," comparaison entre la filiere Ingenierie en Data Science and IOT ( IDSIT ) avec 2 options : Option 1 : IoT and Mobile Services & Option 2 : Web Analytics avant et apres le changement /innovation/renovation/renouvellement"," Ingenierie en Data Science and IOT ( IDSIT ) avec 2 options : Option 1 : IoT and Mobile Services & Option 2 : Web Analytics"],
+         "responses": ["  La filiere IWIM accreditee en 2014 qui  vise a former des professionnels et chercheurs pouvant accompagner l extraordinaire explosion que connait le secteur des technologies de l information et de la communication surtout au niveau des technologies web emergentes et de l informatique mobile et ambiante ,a ete remaniee en adoptant la nouvelle architecture et egalement en introduisant deux options IoT and Mobile Services et Web Analytics renforçant le volet analytique dans le web ce qui justifie l evolution de l intitule en ingenierie en Data Science and IOT.\n"]
+        },
+    {"tag": "recherche_filiere_SSI",
+         "patterns": [" Securite des Systemes d Information (SSI)","SSI"," presentation de la filiere Securite des Systemes d Information (SSI) "," comparaison entre la filiere Securite des Systemes d Information (SSI) avant et apres le changement /innovation/renovation/renouvellement"],
+         "responses": [" La filiere SSI accreditee en 2014 qui vise a former des ingenieurs informaticiens specialistes en securite des systemes d information a ete remaniee en adoptant la nouvelle architecture et en introduisant quelques elements et/ modules pour l instauration de la confiance numerique indispensable a une transformation digitale reussi. Elle a change egalement son coordonnateur. \n"]
+        },
+    {"tag": "recherche_filiere_2SCL",
+         "patterns": [" Smart Supply Chain & Logistics (2SCL)","IeL"," presentation de la filiere Smart Supply Chain & Logistics (2SCL)"," comparaison entre la filiere Smart Supply Chain & Logistics (2SCL) avant et apres le changement /innovation/renovation/renouvelement"],
+         "responses": ["  La filiere IeL accreditee en 2014 a ete remaniee en adoptant la nouvelle architecture, en changeant le coordonnateur de la filiere et en introduisant differents modules qui permettent de concevoir et de developper des strategies des chaines logistiques digitale et intelligente permettant de repondre aux besoins de clients a l ere de l intelligence artificielle tout en veillant constamment au triangle Cout Qualite-Delai. Une innovation a egalement ete introduite par une hybridation entre la formation classique et par alternance. D où l evolution de son intitule en Smart Sypply Chain & Logistics.\n"]
+        },
+    {"tag": "recherche_filiere_SSE",
+         "patterns": ["ISEM "," Smart System Engineering (SSE) avec 2 options : Option 1 : IoT and Industry 4.0 & Option 2 : Autonomous Systems\n"," presentation de la filiere Smart System Engineering (SSE) avec 2 options : Option 1 : IoT and Industry 4.0 & Option 2 : Autonomous Systems"," comparaison entre la filiere Smart System Engineering (SSE) avec 2 options : Option 1 : IoT and Industry 4.0 & Option 2 : Autonomous Systems avant et apres le changement /innovation/renovation/renouvellement"],
+         "responses": ["La filiere ISEM accreditee en 2014 a ete profondement remaniee en adoptant la nouvelle architecture, en changeant le coordonnateur de la filiere et en introduisant 2 optionsIoT and Industry 4.0 & Option 2 : Autonomous Systems pour former des eleves ingenieur capables de traiter, d analyser, et de produire des solutions intelligentes dans differents domaines : industriel, smart cities, smart buildings, smart agriculture, medical…. L innovation dans cette formation s etale sur differents niveaux :\n o Conception de la formation : \nLa filiere SSE est conçue d une façon « top-down » pour repondre aux nouvelles exigences du marche d emploi\nMethodes d enseignement : Le programme de la filiere SSE peut être assure en Presentiel, a distance, ou hybride, Moocs, capsules video, livres de references (text books).\nLangues d enseignement : Le programme de la filiere SSE est assure en français ou en anglais pour la premiere et la deuxieme annee et en anglais pour la troisieme annee.\n Certification : le programme de la filiere SSE propose aux etudiants un ensemble de certifications avec nos partenaires comme CISCO, IBM, NI,...\nMobilite a l international : La vision moyen terme est de basculer totalement en anglais pour pouvoir faire des mobilites de et vers le sud (anglophone ou francophone) et de et vers les pays asiatiques, americains et europeens. \n"]
+        },
+    {"tag": "recherche_filiere_IDF_2IA",
+         "patterns": [" IDF" ," 2IA","ingenierie digitale de la finance","intelligence artificielle"],
+         "responses": ["Les deux  filieres d ingenieur Ingenierie Digitale pour la Finance (IDF) ainsi que l ingenierie de l Intelligence Artificielle (2IA) ne sont pas rendues a terme d accreditation."]
+        },
+        {"tag": "recherche_filiere_MSEA",
+         "patterns": [" filiere master specialise systemes embarques pour automobile MSEA" ,"OBJECTIFS du master specialise systemes embarques pour automobile MSEA"," Diplomes requis pour un master specialise systemes embarques pour automobile MSEA",  "Prerequis pedagogiques specifiques pour un master specialise systemes embarques pour automobile MSEA", " DEBOUCHES ET RETOMBEES DE LA FORMATION du master specialise systemes embarques pour automobile MSEA"],
+         "responses": ["Le Master MSEA offre une formation alliant electronique, mecatronique, automatique, informatique et les techniques avancees de controle des systemes en renforçant son enseignement sur les notions transverses en mecatronique et les systemes embarquees.\nL objectif du Master est de former des specialistes de haut niveau dans les domaines de :\n• La conception de produits mecatroniques et micro-mecatroniques.\n• La commande des systemes (Application Automobile),\n• La conception de systemes embarques,\n• L integration de systemes d instrumentation avances.\nLe descriptif de ce master est disponible sur le site\n"]
+        },
+    {"tag": "recherche_filiere_IFDGR",
+         "patterns": [" Filiere Master Specialise Ingenierie pour la Finance Durable et la Gestion des Risques IFDGR" ,"OBJECTIFS DU Master Specialise Ingenierie pour la Finance Durable et la Gestion des Risques IFDGR"," Diplomes requis pour un Master Specialise Ingenierie pour la Finance Durable et la Gestion des Risques IFDGR",  "Prerequis pedagogiques specifiques pour un Master Specialise Ingenierie pour la Finance Durable et la Gestion des Risques IFDGR", " DEBOUCHES ET RETOMBEES DE LA FORMATION Master Specialise Ingenierie pour la Finance Durable et la Gestion des Risques IFDGR"],
+         "responses": ["Le descriptif de ce master est disponible sur le site"]
+        },
+    {"tag": "recherche_filiere_BIG_DATA",
+         "patterns": [" Le master recherche SCIENCE DE DONNEES ET BIG DATA" ,"OBJECTIFS DU MASTER Le master recherche SCIENCE DE DONNEES ET BIG DATA"," Diplomes requis pour un master recherche SCIENCE DE DONNEES ET BIG DATA",  "Prerequis pedagogiques specifiques pour un master recherche SCIENCE DE DONNEES ET BIG DATA", " DEBOUCHES ET RETOMBEES DE LA FORMATION master recherche SCIENCE DE DONNEES ET BIG DATA"],
+         "responses": ["nOBJECTIFS DU MASTER L objectif du master de recherche SCIENCE DE DONNEES ET BIG DATA est de former des chercheurs dans les domaines: • Fouille et Analyse de Donnees Massives (Data Miner, Data Scientist) • Machine Learning pour le Big Data • Architecture pour le Big Data, • Modele de Donnees pour le Big Data, • Analyse des donnees multimedia (image, video, audio, texte) pour le Big Data • Analyse des reseaux sociaux • Analyse du Web, • Analyse et Prediction du Comportement d un Processus • Etc. \nDiplomes requis • Licence en Informatique (SMI) ou equivalent, • Licence en Sciences Mathematiques et Applications (SMA) ou equivalent\n Prerequis pedagogiques specifiques • Des connaissances en Structures de donnees et Algorithmique • Connaissance d un Langage de programmation • Des connaissances mathematiques de base (niveau licence SMI ou SMA) \nDEBOUCHES ET RETOMBEES DE LA FORMATION Preparer un Doctorat dans des thematiques relevant de : • Fouille et Analyse de donnees Massives • Architectures dediees au Big Data • Machine Learning pour le De BIG DATA • Analyse des Donnees Multimedia (image, video, audio, texte) • Analyse des Reseaux Sociaux • Etc. Ou bien, occuper des metiers dans : • L ingenierie du Big Data, • L Informatique Decisionnelle • La science de la donnee.\n"]
+        },
+    {"tag": "recherche_filiere_MIOLA",
+         "patterns": [" master internet des objets: LOGICIEL ET ANALYTIQUE MIOLA","OBJECTIFS DU master internet des objets: LOGICIEL ET ANALYTIQUE MIOLA"," Diplomes requis pour un master internet des objets: LOGICIEL ET ANALYTIQUE MIOLA",  "Prerequis pedagogiques specifiques pour un master internet des objets: LOGICIEL ET ANALYTIQUE MIOLA", " DEBOUCHES ET RETOMBEES DE LA FORMATION master internet des objets: LOGICIEL ET ANALYTIQUE MIOLA" ],
+         "responses": ["OBJECTIFS DU MASTER L objectif de ce master est de former des etudiants hautement qualifies ayant une connaissance de base large en informatique et une specialite dans les domaines emergents notamment l Internet des Objets, l ingenierie du Web, DevOps, la Qualite Logicielle, le Big Data, l UX Design, le Cloud et Virtualisation.\nDiplomes requis • Licence en informatique ou diplomes bac + 3 en SMI et SMP ou diplome reconnu equivalent (Admission sur dossier, examens ecrit et entretien) • Les etudiants de 1ere annee ingenieur de la filiere IWIM de l ENSIAS ayant une moyenne annuelle >= 10/20 peuvent acceder a la premiere annee apres avoir valide la Procedure de selection. • Les etudiants de 2eme annee ingenieur de la filiere IWIM de l ENSIAS ayant une moyenne annuelle >= 10/20 peuvent acceder a la deuxieme annee apres avoir valide la Procedure de selection. \nDEBOUCHES ET RETOMBEES DE LA FORMATION • Administrateur reseaux et Internet des Objets • Qualiticien de logiciels • Consultant en reseaux mobiles • Developpeur en Informatique Mobile • UX Designer • Manager de projets logiciels • Developpeur en Big data • Scrum Master • Chercheur en Ingenierie du Logiciel • Chercheur en IoT\n"]
+        },
+    {"tag": "recherche_filiere_sante",
+         "patterns": [" Master de recherche en Bioinformatique et Modelisation des systemes complexes appliquee a la sante " ,"OBJECTIFS DU Master de recherche en Bioinformatique et Modelisation des systemes complexes appliquee a la sante "," Diplomes requis pour un Master de recherche en Bioinformatique et Modelisation des systemes complexes appliquee a la sante ",  "Prerequis pedagogiques specifiques pour un Master de recherche en Bioinformatique et Modelisation des systemes complexes appliquee a la sante ", " DEBOUCHES ET RETOMBEES DE LA FORMATION Master de recherche en Bioinformatique et Modelisation des systemes complexes appliquee a la sante "],
+         "responses": ["OBJECTIFS DU MASTER Le master Bio-informatique et Modelisation des systemes complexes appliquee a la sante est un master de recherche pluridisciplinaire qui s articule autour de l informatique et des mathematiques et leurs applications en bio-informatique et modelisation des systemes complexes lies a sante. Il offre a l etudiant une formation solide qui lui permettra de developper des modeles mathematiques et techniques, dans l ere du BigData et de l intelligence Artificielle, pour resoudre des problemes biologiques et de sante. \nDEBOUCHES ET RETOMBEES DE LA FORMATION La finalite de ce master de recherche est de preparer les laureats : • A poursuivre leurs etudes universitaires en cycle doctorat en tant que specialistes en modelisation et en analyse des donnees massives et complexes liees a la sante. • A integrer le monde du travail au sein: • des Hopitaux : gestion de la logistique hospitaliere, des services medicaux… • de Laboratoires, Instituts, Facultes, Centres medicolegaux Industrie pharmaceutique pour tous ce qui est en relation avec la recherche en Genomique, la biologie moleculaire, bioinformatique et informatique concerne par le domaine du genome ou de sante, du proteome et de transcription … • A creer des startups informatiques autour d idees innovantes dans le domaine bioinformatique ou sante convergeant vers la medecine personnalise qui est un secteur d avenir tres fertile (par exemple : les Bases de donnees biologiques specifiques, des logiciels 3D en relation avec la radiologie.., des systemes d analyses predictifs base sur la genomique, Systeme intelligent pour la gestion des dossiers patients…\nPrerequis pedagogiques specifiques Les modules prerequis sont les modules Informatiques, Statistiques et probabilite vues en Licence\nDiplomes requis L acces aux formations conduisant a ce diplome de Master est ouvert : • Aux titulaires de la licence dans le domaine Informatique, Mathematique ou equivalent."],
+         "context": [""]
+        },
+    {"tag": "recherche_filiere_M3S",
+         "patterns": [" master de recherche en securite systemes et services M3S" ,"OBJECTIFS DU master de recherche en securite systemes et services M3S"," Diplomes requis pour un master de recherche en securite systemes et services M3S",  "Prerequis pedagogiques specifiques pour un master de recherche en securite systemes et services M3S", " DEBOUCHES ET RETOMBEES DE LA FORMATION master de recherche en securite systemes et services M3S"],
+         "responses": ["OBJECTIFS DU MASTER L evolution notable qu ont connue les systemes actuels en termes de la haute connectivite, et la masse importante de donnees traitees, generees et echangees par les equipements, a fait naitre de nouvelles exigences demandant davantage d intelligence et de securite a integrer dans ces systemes. La defaillance de ces derniers a des consequences nefastes sur la qualite du service fourni. Pour faire face, il est devenu indispensable de s assurer de la securite de ces systemes. Le Master Securite Systemes et Services (M3S) s adresse aux etudiants desireux poursuivre les etudes doctorales en informatique, et specialement la securite des systemes repartis et des services associes. Il a pour objectif de completer leur formation afin d avoir les acquis necessaires a la comprehension de ces nouveaux systemes et de contribuer efficacement a leur securite. Le master M3S vise aussi, a initier ses etudiants aux methodologies de la recherche scientifique pour être capables d adopter la methode adequate lors du cycle doctoral.\nDiplomes requis Pour postuler a une admission en master M3S, le candidat doit être titulaire d une Licence en Sciences Mathematiques et Informatiques (SMI), ou un diplome reconnu equivalent. Prerequis pedagogiques specifiques Le Master 3S requiert des prerequis en : • Reseaux informatiques, • Systeme d exploitation • Algorithmique, • Probabilites et statistiques • Conception objet, • Developpement Web, • Bases de donnees\nDEBOUCHES ET RETOMBEES DE LA FORMATION Les diplomes du master M3S, peuvent s engager dans des etudes doctorales en informatique qui ouvrent des carrieres dans l enseignement superieur ou dans la recherche dans des organismes publics. Il est aussi envisageable qu ils soient absorbes par le marche du travail pour des fonctions d expertises et d analyse, cela vu les qualites developpees lors de ces etudes ainsi que les specificites techniques du master M3S.\n\n\n7 nouveau master de recherche cloud and high performance computing CLOUDHPC\n "]
+        },
+    {"tag": "certifications",
+         "patterns": [" certifications" ],
+         "responses": ["L ENSIAS est le premier centre academique agree LPI au Maroc, organise des formations de preparation aux certifications Linux LPI 101, 102, 201 et 202. Elle est aussi academie regionale CISCO et partenaire de Juniper, Oracle et Microsoft.\nLes eleves-ingenieurs beneficient aussi d une certification en anglais.\n"]
+        },
+    {"tag": "INTERNATIONAL_Accueil d etudiants",
+         "patterns": ["Accueil d etudiants " ,"Accueil  des étudiants d’Afrique subsaharienne ","Les etudiants etrangers","Les etudiants etrangers qui souhaitent integrer l ENSIAS"],
+         "responses": ["Les etudiants etrangers qui souhaitent integrer l ENSIAS peuvent rejoindre les differents cycles de formation dans les mêmes conditions que les etudiants marocains.\nDans le cas où votre universite ou votre etablissement a signe une convention de cooperation avec l ENSIAS ou avec l Universite Mohammed V Souissi, vous beneficierez des conditions de mobilite ou d echange decrites dans le document signe entre les deux institutions.\n"]
+        },
+    {"tag": "INTERNATIONAL_Financement_",
+         "patterns": ["Financement ","le financement existent dans le cadre de mobilite d etudiants pour suivre une partie de leur cursus a l etranger","lorsque vous êtes sujet d une mobilite en france est ce que c est l ecole qui paie les frais de l ecole d accueille ","si un etudiant est selectionne pour une double diplomation ou un echange, y-a-t-il des bourses qui soutient l etudiant " ],
+         "responses": ["De nombreuses possibilites de financement existent soit dans le cadre de mobilite d etudiants pour suivre une partie de ton cursus a l etranger ou pour effectuer des stages de formation ou de recherche a l etranger.\nUne liste des differentes possibilites de financement est disponible  sur le site.\n\n"]
+        },
+    {"tag": "Etudier a l etranger",
+         "patterns": ["Etudier a l etranger ","les mobilites, les echanges les doubles diplomes "," ENSIMAG ", "ENSEIRB" , "ENSEEIHT" , "ESIEE" , "ISIMA" , "Telecom Saint Etienne" , "Ecole des Mines de Saint Etienne" , " Universite de Stockholm ", "ENSI de Tunis"," La selection pour les programmes de mobilite et de co-diplomation" , " Universite de Sherbrooke", "Existe il des doubles diplomes ou mobilite a l ensimag ou matmeca dans la specialite " ],
+         "responses": ["L ENSIAS encourage, depuis 1995, la mobilite internationale de ses etudiants. Cette mobilite concerne les etudiants des filieres ingenieurs, masters et doctorat.\nUn reseau d ecoles d ingenieurs partenaires accueille nos eleves ingenieurs soit dans le cadre de convention d echanges d etudiants pour suivre la troisieme annee a l etranger (ENSIMAG , ENSEIRB , ENSEEIHT , ESIEE , ISIMA , Telecom Saint Etienne , Ecole des Mines de Saint Etienne , Universite de Stockholm , ENSI de Tunis , Universite de Sherbrooke ) ou dans le cadre de programmes de double diplomation qui offre la possibilite d avoir un double diplome (actuellement avec l ENSIMAGet l ISIMA).\nPour l annee universitaire 2010-2011, un groupe de 18 etudiants a pu beneficier de cette mobilite vers des ecoles d ingenieurs françaises (ENSIMAG , ENSEEIHT , ENSEIRB et ISIMA ).\nLa selection pour les programmes de mobilite et de co-diplomation se fait sur la base de l excellence des notes et de la motivation a poursuivre ses etudes a l etranger.\n"]
+        },
+    {"tag": "ENTREPRISES_Parteneires_",
+         "patterns": [" ENTREPRISES Parteneires" ,"quelles sont les entreprises qui sont en partenariat avec l ENSAIS ?","quelles sont les partenaires de l ENSIAS nationales et internationales.?"],
+         "responses": ["L ENSIAS entretient des partenariats avec de nombreuses entreprises nationales et internationales.\nL ENSIAS est le partenaire de plusieurs grandes entreprises internationales dans le domaine des TIC qui offre des certifications a ses eleves-ingenieurs :\nCISCO/ IBM /JUNIPER NETWORKS/ORACLE/MEGA/MICROSOFT \nCes partenariats avec les entreprises s etablissent dans le cadre de conventions de partenariats ou de contrats de formation continue ou de recherche sur un large champ d investigation. \nplus d info sur les autres part est disponible  sur la page.\n"]
+        },
+    {"tag": "stages en entreprises",
+         "patterns": ["stages en entreprises pour les etudiant a l ENSIAS ","stages ","L ENSIAS /l ecole fournit-elle une aide aux eleves pour les stages" ],
+         "responses": ["Les stages en entreprise permettent aux etudiants de completer leur formation par l acquisition d une experience professionnelle ainsi que l acquisition de competences complementaires.\nLe partenariat developpe par l ENSIAS avec de nombreuses entreprises offre aux etudiants la possibilite d acceder a de nombreuses offres de stages ou de projets de fin d etude\n"]
+        },
+    {"tag": "recrutement des laureats",
+         "patterns": ["recrutement des laureats ","recrutement","l ecole aide-t-elle les etudiants a trouver un emploi apres l obtention du diplome"," trouver un emploi apres l obtention du diplome","comment les laureats trouvent-ils un emploi apres l obtention du diplome","comment on peut trouver un emploi apres l obtention du diplome, est ce que l ecole intervient" ],
+         "responses": ["Le recrutement de nos laureats peut être effectues de differentes maniere.\nLes entreprises peuvent participer au FORUM Geni où ils peuvent dialoguer directement avec les futurs laureats.\nLa signature de conventions de partenariat permet un acces privilegie aux laureats pour la presentation de nos offres d emploi.\n"]
+        },
+
+    {"tag": "le parascolaire",
+         "patterns": [" le parascolaire" ,"CLUB","CLUBS","activite parascolaire"],
+         "responses": ["il existe plusieurs club avec une diversite des domaines d occupation ,voici quelques un:\n Club Forum Geni Entreprises\nClub Bridge ENSIAS \n Club Japonais de l ENSIAS\nClub Vintage ENSIAS \nClub CINDH ENSIAS Club d Initiative Nationale du Developpement Humain\nINSEC CLUB\n - Vous pouvez tapper le nom de n importe quel club pour avoir plus de details "]
+        },
+    {"tag": "Club Forum Geni Entreprises",
+         "patterns": ["Club Forum Geni Entreprises " ],
+         "responses": ["Le club Forum GENI Entreprises organise chaque annee, depuis 1998, un forum de recrutement de grande envergure où participent chaque annee plus de 50 entreprises et plus de 4000 participants.  L evenement est organise pendant deux jours et organise notamment des conferences et des sessions de recrutement pour les eleves ingenieurs et jeunes laureats. Le club travaille en partenariat avec les grandes ecoles d ingenieurs de Madinat Al Irfane, l INPT et lNSEA.\n"]
+        },
+    {"tag": "Club Bridge ENSIAS",
+         "patterns": [" Club Bridge" ],
+         "responses": ["Le club a ete cree en 2010, a travers une collaboration de certains laureats et etudiants de l ENSIAS, a but de realiser des briefings autours de certains sujets interessants. Ceci a eu un grand succes les annees precedentes. Comme son nom l indique, l objectif principal du club est de lier les eleves ingenieurs avec le monde exterieur. Ce club travaille en collaboration avec l AIENSIAS.\n"]
+        },
+    {"tag": "Club Japonais de l ENSIAS",
+         "patterns": [" Club Japonais " ],
+         "responses": ["Le CJE ou Club Japonais de l ENSIAS, cree en 2013, est parmi les clubs les plus actifs au sein de l Ecole Nationale Superieure d informatique et d Analyse des Systemes. Les connaissances d un futur ingenieur n etant pas limitees aux competences techniques et manageriales, le CJE vide a creer pour ses membres un cadre adequat de l enseignement de la langue japonaise et du rapprochement a la culture nippone.\n"]
+        },
+    {"tag": "Club Vintage ENSIAS",
+         "patterns": ["Club Vintage  " ],
+         "responses": ["Le Club Vintage est le fruit d une fusion entre plusieurs idees de projets murement reflechis, tous inspirees des annees 60, 70 et 80. Le Club Vintage est convaincu que la passion est une source inepuisable d inspiration, et que la philosophie des commencements est a même de reveiller la plus sterile des imaginations, et de pousser un esprit avide de savoir au-dela de toutes les limites qu il peut se fixer. L ENSIAS se pare aujourd hui de son club Select qui venere l inventivite, qui adore l intellect et l imagination.\n"]
+        },
+    {"tag": "CINDH",
+         "patterns": [" CINDH"," Club CINDH ENSIAS Club d Initiative Nationale du Developpement Humain" ],
+         "responses": ["Cree en 2007, CINDH est un club social a but non lucratif, constitue des eleves-ingenieurs et laureats de l ENSIAS.\nSon but principal consiste a aider au maximum les autres.\nCe club a pour but d apporter un peu de joie et de reconfort aux personnes defavorisees.\n-sesvaleurs:\n* Solidarite : L esprit d equipe s exprime a travers la solidarite de tous les membres \n* Engagement : Le club s engage a aller au bout des projets les plus difficiles\n* Respect : Les echanges s appuient sur un respect mutuel et l acceptation de la diversite des opinions\n"]
+        },
+    {"tag": "INSEC Club",
+         "patterns": [" INSEC Club" ],
+         "responses": ["INSEC, Information Security Club est le premier club de securite informatique au Maroc. Il est le fruit concret de l interêt et la passion qu ont les etudiants ingenieurs de l ENSIAS pour la securite et le hacking.\nSa fondation remonte a 2010, dans le but de sensibiliser les etudiants envers l importance critique de la securite informatique, surtout que ce domaine connait une progression importante dans notre pays.  \n"]
+
+        },
+    {"tag": "formation generalise ou spetialise",
+         "patterns": ["la difference entre une formation a l ENSIAS (un diplome de specialite) et un diplome generaliste.\n " ,"les competences qu il faut avoir pour devenir un data scientist et si la formation est suffisante","les connaissances  techniques en machine learning / deep learning est-il essentiel pour avoir une carriere dans data scientist \n"],
+         "responses": ["Une formation ensias vous permet d acquerir des connaissances generales dans le domaine de l informatique et de la specialisation  dans un domaine precis ,ces connaissances bien aquises  vous permettent d avoir un avantage supplementaire par rapport a d autres formations qui vous apportent peu et ne vous permettent pas de metriser un domaine precis, le recruteur prefere quelqu un qui est doue dans son domaine sur quelqu un qui ne metrise rien,en plus de tout cela la formation ENSIAS vous permet de s ouvrir a d autres domaines ,il existe plusieurs exemples des laureat de l ENSIAS qui sont orientees vers le DATA SCIENCE même si leur orientation initiale etait differente."]
+        },
+    {"tag": "au niveau professionnelle",
+         "patterns": [" une formation a l ENSIAS est-elle suffisante au niveau professionnelle ? / marche du travail " ,"est ce que pour s orienter vers un domaine il faut que tu le sache/metrise tres bien"],
+         "responses": ["L ENSIAS a un grand reseau cela vous aidera egalement apres l obtention du diplome ,cette reputation de l ecole est due a un grand travail , car la formation l ENSIAS vous donne les bases pour entamer une carriere reussite et d avoir des connaissance generale sur le domaine de l informatique ,ce qui vous permet d avoir un plus par rapport aux autres formation qui vous donne un peu du tout et ne te permet pas de maitriser un domaine precis "]
+        },
+    {"tag": "autoformation",
+         "patterns": ["au Maroc il se peut que j ai une formation academique qui n a rien a voir avec l informatique "," sur quelle cote /niveau / domaine l autoformation doit être ","est-t-il  vraiment le travail qui fait la difference ou bien l encadrement ?","est ce que  la quantite des competences dans le domaine du software engineering sont qui donnent plus de valeur a l ingenieur ou un minimum plus maitrise est mieux ?","est ce qu une formation dans une filiere specialisee est suffisante\n" ],
+         "responses": [" l informatique est un domaine qui s evolue et s agrandit, des choses de nouveau apparaissent  chaque jour ,donc il faut toujours developper vos connaissances par l autoformation qui est une necessite dans ce domaine .A l ENSIAS vous rencontrerez des gens motives par l informatique ,et vont vous orienter a chercher plus dans plusieurs domaines de l informatique"]
+        },
+     {"tag": "conditions de vie",
+         "patterns": ["les conditions de vie ","la localisation ","existe-il du restaurant a l ENSIAS sinon quelles sont les autres substitutions " , "wifi","internet /connexion wifi"],
+         "responses": ["A l ENSIAS:\nIl n y a pas de restaurant ,mais il existe une buvette avec un menu a plusieurs choix\n il y a un savonneux\n bonne connexion wifi \n Il y a une grande epicerie ou vous pouvez trouver tous ce que tu veux\n l ENSIAS se situe dans un endroit strategique , Elle est proche de plusieurs etablissements , marches ,la gare, a cote d autres ecoles superieurs , banques ... etc. "]
+        },
+    {"tag": "formation",
+         "patterns": ["le cote pratique et les projets les stages "],
+         "responses": ["la formation ENSIAS fait l equilibre entre le cote pratique et theorique et c est ce qui la distingue ,cela se fait a travers plusieurs projets repartis sur les trois annees de la formations  "]
+        },
+    {"tag": "emploi",
+         "patterns": ["votre emploi du temps est plein ?","comment est votre emploi du temps ","emploi du temps"],
+         "responses": [" il s agit d un emploi du temps charge tout au long de la semaine sauf le week-end "]
+        },
+     {"tag": "Roles etrangeres partenaires",
+         "patterns": ["Roles etrangeres partenaires","etrangeres partenaires","L ETRANGER en partenariat"],
+         "responses": ["- ENSIMAG, Grenoble (double diplomation)\n- ENSEIRB, Bordeaux\n- ENSEEIHT, Toulouse\n- Clermont-Ferrand (double diplomation)\n- ESIEE, Paris\n- Telecom Saint-Etienne\n- Faculte de genie, Universite de cherbrooke (Canada)\n- ENS!, Tunis\n\n "]
+        },
+     {"tag": "Filiere Option Systemes Embarques et Mobiles",
+         "patterns": ["Filiere Option Systemes Embarques et Mobiles"],
+         "responses": ["- Conception des systemes embarques et temps reel\n- Conception de systemes numeriques et systemes reconfigurables\n- Traitement de signal numerique embarque\n- Reseaux et communication pour systemes embarques\n- systemes mobiles\n- Projets en embarque\n- Finance et controle de gestion\n- Anglais (TOEIC)\n "]
+        },
+      {"tag": "3- Filiere Option Ingenierie de la logistique",
+         "patterns": [" Filiere Option Ingenierie de la logistique"],
+         "responses": [" - Modelisation et methodes de resolution en logistique\n- Chaine logistique stochastique\n- Systemes logistiques\n- Modelisation et simulation des chaInes logistiques\n- Management Industriel et logistique\n- Systernes d information logistique\n- Management de I entreprise\n- Anglais (TOEIC)\n"]
+        },
+      {"tag": "Filiere Option Business Intelligence",
+         "patterns": ["Filiere Option Business Intelligence"],
+         "responses": [" - E-Management\n- Mise en oeuvre de systernes decisionnels\n- Analyse predictive et choix multicriteres\n- Gestion de ( information et des connaissances\n- Management de la technologie et de ( innovation\n- Techniques et outils de management de projet\n- Finance et contnole de gestion\n- Anglais (TOEIC)\n"]
+        },
+    {"tag": "Filiere Option Ingenierie des Telecommunications et Reseaux",
+         "patterns": ["Filiere Option Ingenierie des Telecommunications et Reseaux"],
+         "responses": [" - Reseaux aspects avances\n- Systemes telecoms I\n- Systernes telecoms II\n- Reseaux nouvelle generation\n- Administration et securite des reseaux\n- Systernes et telecoms\n- Finance et controle de gestion\n- Anglais (TOEIC)\n \n"]
+        },
+    {"tag": "Les modules du semestre 1 et 2",
+         "patterns": ["Les modules du semestre 1","Quels sont  les modules du 1ere premiere annee 1a","Les modules du semestre 2","Plan de formation"],
+         "responses": [" Les modules du semestre 1\n\n- Algorithmique et Structures de Donnees\n- Elements d analyse\n- Elements de Recherche operationnelle\n- Probabilites et statistiques\n- Architecture des ordinateurs\n- Economie, gestion, finance  I\n- Langues et techniques de communication\n Les modules du semestre 2\n\n\n- Structures de Donnees\n- Bases de Donnees\n- Introduction aux systemes d exploitation2\n- Informatique theorique\n- Systemes et Reseaux I\n- Economie, gestion, finance II\n- Langues et techniques de communication II\n- Projet Pratique (PFA 1)\n "]
+        },
+    {"tag": "Acces en 1a",
+         "patterns": ["Conditions","Acces en premiere annee"],
+         "responses": ["Conditions:\n\n\n*Acces en premiere annee\n\n- Candidats ayant reussi le Concours National Commun (CNC) des grandes ecoles d ingenieurs du Maroc.\n\n- Sur concours pour les titulaires des diplonnes suivants : DEUG Sciences Mathematiques (SM) ou Sciences Mathematiques et Informatique (SMI)\n\n- Acces sur titre : Licence SMI\n "]
+        },
+    {"tag": "Internat ENSIAS",
+         "patterns": ["Adresse","Pieces","Locaux collectifs ","Chambre double meublee","convivialite ","Internat ENSIAS"],
+         "responses": ["\nInternat ENSIAS:\n\nU Universite s est dotee en octobre 2006 d une residence universitaire plantee au coeur de I Ecole Nationale d Informatique et d Analyse des Systemes.\nElle dispose d une capacite d accueil de 400 etudiants repartie sur trois pavillons .Cette cite universitaire est essentiellement reservee a l hebergement des etudiants de l Ecole Nationale d Informatique et \nd Analyse des Systemes.Elle a l avantage d offrir un logement bien amenage dans un cadre d ouverture et de convivialite :\n- Chambre double meublee\n- Locaux collectifs : sanitaires - cuisinettes - salles de travail - Buvette\nFrais : 300 Dh / Mois\nPieces : Legalisation d un reglement interieur de la residence publie dans le site de l ENSIAS\nAdresse : Avenue Med Ben Abdallah RagraguiCampus Universitaire Al Irfane BP 713 Agdal -Rabat\n"]
+        },
+    {
+      "tag": "contacts",
+      "patterns": ["contact","numero de telephone"],
+      "responses": ["Voici quelques contacts qui peuvent vous aider:\nDirecteur\nIlham Berrada\nTel : 05 37 77 96 42\nFax : 05 37 77 72 30\nilham.berrada@ensias.um5.ac.ma\n \nDirecteur Adjoint charge des Affaires Academiques\nHanan EL Bakkali\nTel : 05 37 77 73 17\nFax : 05 37 77 72 30\nhanan.elbakkali@ensias.um5.ac.ma\n \n \n \nDirecteur du Centre des Etudes Doctorales en Sciences des Technologies de l Information et de l Ingenieur (ST2I)\nMahmoud NASSAR\nmahmoud.nassar@ensias.um5.ac.ma\n \nDirecteur du Centre de la Formation Continue\nSalah BAÏNA\nsalah.baina@ensias.um5.ac.ma\n \nSecretaire General\nMohamed El Yemli\nTel : 05 37 77 73 17/ 06 61 48 10 97\nFax : 05 37 77 72 30\nm.elyemli@um5r.ac.ma\n "]
+    },
+    {
+      "tag": "les_ressources_dans_l ENSIAS",
+      "patterns": ["les ressources  ","Bibliotheque"],
+      "responses": ["Bibliotheque \nL ENSIAS dispose d une bibliotheque où sont assurees les tâches classiques, depuis la collecte des titres d ouvrages et periodiques a acquerir jusqu a leur mise a la disposition des utilisateurs. La bibliotheque contient un certain nombre de livres destines aux etudiants comme support de cours reçus durant leur cursus de formation. Elle met aussi a leur disposition plusieurs periodiques pour la culture generale. Les etudiants ont la possibilite de connaitre les ouvrages disponibles en consultant sur place la base des donnees des livres de la bibliotheque ou a travers ce site Web (utilisez le menu a votre droite). "]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "A toute", "au revoir"],
+      "responses": [
+        "A plus tard, merci de votre visite",
+        "Bonne journee",
+        "Au revoir! Revenez bientot."
+      ]
+    },
+    {
+  "tag": "identity",
+  "patterns": ["Qui êtes vous", "Est tu un robot?", "Comment tu t appelles","quel est ton nom?","quel est ton prenom"],
+  "responses": [
+    "Je suis ENSIBOT. Votre assistant qui va repondre a vos questions concernant l ensias",
+    "Je m appelle ENSIBOT. Je suis la pour repondre a vos questions sur l ENSIAS :)"
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": ["merci", "Thank you", "C est utile", "merci beaucoup"],
+  "responses": ["Heureux de vous aider!", "Avec plaisir", "c est un plaisir de vous rencontrer"]
+}
+    ]
+}
